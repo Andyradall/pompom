@@ -1,0 +1,61 @@
+body {
+    font-family: 'Play', sans-serif;
+    background: green;
+    text-align: center;
+
+}
+
+/* 
+* Timer
+*/
+
+.wrapper {
+    background: tomato;
+    border: 1px solid white; 
+    width: 350px; 
+    height: 400px;  
+    display: flex; 
+    flex-direction: column;
+    padding: 7vh; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duration {
+   /* border: 1px solid white; */
+}
+
+.duration_time {
+    font-size: 5rem;
+}
+
+.duration_unit {
+    font-size: 1rem;
+}
+
+.timer_counter--active {
+   color: black; 
+}
+
+/* 
+* Start Button
+*/
+
+.start_btn {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 6rem;
+    height: 6rem;
+    color: white;
+    border-radius: 50%;
+}
+
+.start_btn:hover {
+    cursor: pointer;
+    color: black;
+    border-color: black;
+}
+
+.hidden {
+    visibility: hidden;
+}
